@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "mango-green-tea",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "my person blog",
   "version": "0.1.0",
   "license": "0BSD",
+  "homepage": "https://iamplex.github.io",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -14,11 +15,24 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@emotion/core": "^10.1.1",
+    "@emotion/styled": "^11.0.0",
+    "@mdx-js/mdx": "^1.6.18",
+    "@mdx-js/react": "^1.6.18",
+    "@theme-ui/presets": "^0.4.0-rc.5",
+    "@theme-ui/prism": "^0.4.0-rc.5",
+    "@theme-ui/typography": "^0.3.0",
     "gatsby": "^2.24.41",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "theme-ui": "^0.4.0-rc.5",
+    "typography-theme-moraga": "^0.16.19"
   },
   "devDependencies": {
+    "gatsby-plugin-emotion": "^4.3.11",
+    "gatsby-plugin-mdx": "^1.2.40",
+    "gatsby-plugin-theme-ui": "^0.4.0-rc.5",
+    "gatsby-source-filesystem": "^2.3.24",
     "prettier": "2.0.5"
   },
   "repository": {
